@@ -1,0 +1,67 @@
+<view class="container">
+	<view class="header">
+    <view class="title">我的</view>
+    <navigator class="header-con" url= '../my/info'>我的资料</navigator>
+    <view  wx:key="id" name="user_info">
+      <view class="user">
+        <image class="icon user-img" src="/images/my/06.gif"></image>
+        <text class='img-text'>{{result.grade}}</text>
+      </view>
+      <view class="head-portrait">
+        <image class="avatar" src='{{result.avatar}}'></image>
+      </view>
+      <view class="content">
+        <view class="hello">你好，{{staticData.username}}</view>
+        <view class="code">我的识别码：{{staticData.wxcode}}</view>
+        <view class="copy-btn">复制</view>
+      </view>
+    </view>
+  </view>
+  <view class="body-con">
+    <view class="body">
+      <navigator url='../member-center/member-center' class='item'>
+        <image class="icon icon1" src="/images/my/07.jpg" background-size="cover"></image>
+        <view class='text'>会员中心</view>
+      </navigator>
+      <view class='item' bindtap='goOrder' data-type="0">
+        <image class="icon" src="/images/my/09.jpg" background-size="cover"></image>
+        <view class='text'>分销中心</view>
+      </view>
+      <view class='item' bindtap='goOrder' data-type="0">
+        <image class="icon icon2" src="/images/my/11.jpg" background-size="cover"></image>
+        <view class='text'>订单中心</view>
+      </view>
+    </view>
+    <view class="body">
+      <view class='item' bindtap='goOrder' data-type="0">
+        <image class="icon icon3" src="/images/my/17.gif" background-size="cover"></image>
+        <view class='text'>积分商城</view>
+      </view>
+      <view class='item' bindtap='goOrder' data-type="0">
+        <image class="icon" src="/images/my/18.jpg" background-size="cover"></image>
+        <view class='text'>优惠券</view>
+      </view>
+      <navigator class="item" url='../advisory-record/advisory-record'>
+        <image class="icon" src="/images/my/16.jpg" background-size="cover"></image>
+        <view class='text'>咨询记录</view>
+      </navigator>
+    </view>
+    <view class="body body2">
+      <view class='item' bindtap='goApponRecord' data-type="0">
+        <image class="icon icon1" src="/images/my/20.jpg" background-size="cover"></image>
+        <view class='text'>预约记录</view>
+      </view>
+      <view class='item' bindtap='goOrder' data-type="0">
+        <image class="icon" src="/images/my/21.gif" background-size="cover"></image>
+        <view class='text'>收藏夹</view>
+      </view>
+      <view class='item' bindtap='goOrder' data-type="0" >
+        <image class="icon icon2" src="/images/my/15.jpg" background-size="cover"></image>
+        <view class='text'>关于我们</view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <button class="footer-btn">退出登录</button>
+  </view>
+</view>

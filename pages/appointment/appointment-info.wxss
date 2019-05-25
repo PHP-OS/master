@@ -1,0 +1,65 @@
+/* pages/basic-info/basic-info.wxss */
+page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size:26rpx;
+  background:#eeeeee;
+}
+.con{
+  width:100%;
+  background:#fff;
+  padding-bottom: 30rpx;
+}
+.title{
+  width:90%;
+  line-height: 15px;
+  margin:35rpx 0 25rpx 0;
+  padding-left:10rpx;
+  margin-left:30rpx;
+	font-family: PingFang-SC-Regular;
+	font-size: 30rpx;
+  border-left:2px solid #297ce4;
+  color:#333333;
+}
+.item{
+  width:668rpx;
+  line-height:93rpx;
+  margin-left:30rpx;
+  overflow: hidden;
+  border-bottom: solid 1px #d7d7d7;
+}
+.right{
+  float:right;
+}
+.left{
+  float:left;
+}
+.con2{
+  width:100%;
+  background:#fff;
+  padding-bottom: 30rpx;
+  margin-top:30rpx;
+}
+.info{
+  margin-top:30rpx;
+  margin-left:30rpx;
+}
+.text{
+  width:690rpx;
+  height:257rpx;
+  margin:20rpx auto;
+  padding:20rpx 20rpx;
+  border:1rpx solid #ccc;
+}
+.btn{
+  width:200rpx;
+  line-height:80rpx;
+  margin:68rpx auto;
+  background: #4497f7;
+	border-radius: 5px;
+  color:#fff;
+}

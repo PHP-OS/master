@@ -1,0 +1,80 @@
+<view class="container">
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image class="modalDlg" src="../../images/img/17.jpg" wx:if="{{showModal}}">
+    <text class="big">抱歉</text>
+    <text class="tishi-con">医生正在咨询中，请稍后进行咨询，您可以选择其他医生咨询哦~</text>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view>
+
+  <view class="top">
+    <navigator class="consult-record"  url= '../advisory-record/advisory-record' hover-class="none">咨询记录</navigator>
+  </view>
+  <view class="header">
+    <image class="img img1" src="../../images/img/7.jpg"></image>
+    <image class="img" src="../../images/img/8.jpg"></image>
+  </view>
+  <view class="select">
+    <image class="icon" src="../../images/img/9.jpg"></image>
+  </view>
+
+
+  <view class="con" wx:for="{{doctorList}}" wx:for-item="doctor">
+    <view class="head">
+      <view class="left">
+        <image class="img2" src="{{doctor.avatar}}"></image>
+        <view class="name" bindtap="submit">{{doctor.name}}</view>
+        <view class="address">{{doctor.danwei}}</view>
+      </view>
+      <view class="right">
+        <navigator url= '../archives/interpret' hover-class="none"><button class="btn" >立即咨询</button></navigator>
+      </view>
+    </view>
+   
+    <view class="footer">
+      <view class="l">
+        <view class="red">{{doctor.score}}</view>
+        <view class="gray">服务评分</view>
+      </view>
+      <view class="l left2">
+        <view class="red">{{doctor.beizhu}}</view>
+        <view class="gray">服务人数</view>
+      </view>
+      <view class="l">
+        <view class="red">{{doctor.level}}</view>
+        <view class="gray">服务等级</view>
+      </view>
+    </view>
+  </view>
+<!-->
+  <view class="con">
+    <view class="head">
+      <view class="left">
+        <image class="img2" src="../../images/img/23.jpg"></image>
+        <view class="name">丹丹</view>
+        <view class="address">北京医院</view>
+      </view>
+      <view class="right">
+        <button class="btn"  bindtap="submit">立即咨询</button>
+      </view>
+    </view>
+   
+    <view class="footer">
+      <view class="l">
+        <view class="red">甲</view>
+        <view class="gray">服务评分</view>
+      </view>
+      <view class="l left2">
+        <view class="red">100+</view>
+        <view class="gray">服务人数</view>
+      </view>
+      <view class="l">
+        <view class="red">A</view>
+        <view class="gray">服务等级</view>
+      </view>
+    </view>
+  </view>
+  <-->
+</view>

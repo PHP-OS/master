@@ -1,0 +1,147 @@
+page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#ffffff;
+  overflow: hidden;
+  font-size:30rpx;
+}
+.header1{
+  width:100%;
+  height:129rpx;
+  background-color: #4497f7;
+  color:#fff;
+  font-size:30rpx;
+}
+.img{
+  float:left;
+}
+.head-img{
+  width:16rpx;
+  height:30rpx;
+  float:left;
+  margin-left:20rpx;
+  margin-top:71rpx;
+}
+.head-title{
+  margin-top:65rpx;
+  margin-left:314rpx;
+}
+.head{
+  width:680rpx;
+  margin-top:30rpx;
+  overflow: hidden;
+}
+.shu{
+  float:left;
+  font-size:30;
+  color:#4497f7;
+  line-height:40rpx;
+  margin-right:20rpx;
+}
+.tu{
+  margin-top:20rpx;
+}
+.img1{
+  width:334rpx;
+  height:200rpx;
+  margin-right:20rpx;
+  float:left;
+}
+.img2{
+  width:334rpx;
+  height:200rpx;
+}
+.head1{
+  width:680rpx;
+  margin-top:20rpx;
+  overflow: hidden;
+}
+.describe{
+  width:630rpx;
+  height:200rpx;
+  padding:20rpx;
+  margin:10rpx 0 40rpx 0;
+  font-size:24rpx;
+  color: #666666;
+  border: solid 1px #999999;
+}
+.container2{
+  width:100%;
+  padding:0;
+  margin-top:20rpx;
+  background:#ffffff;
+  overflow: hidden;
+  font-size:30rpx;
+}
+.head2{
+  width:680rpx;
+  margin:30rpx 0 0 30rpx;
+  overflow: hidden;
+}
+.container2 .text{
+  width:660rpx;
+  font-size:24rpx;
+  color: #666666;
+  margin:20rpx auto 200rpx;
+}
+.con{
+  text-align: center;
+  color: #666666;
+}
+button{
+  width:200rpx;
+  line-height:80rpx;
+  margin-top:40rpx;
+  margin-bottom: 100rpx;
+  color:#fff;
+  font-size:28rpx;
+  text-align: center;
+  background:#4497f7;
+}
+.user{
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+.info{
+  width:300rpx;
+  margin-left:50rpx;
+  margin-top:10rpx;
+  text-align: left;
+  float:left;
+ 
+}
+.user-head{
+  width:201rpx;
+  height:282rpx;
+  float:right;
+  margin-bottom: 20rpx;
+}
+.gray{
+  width:100%;
+  height:20rpx;
+  background:#eeeeee;
+}
+input{
+  width:640rpx;
+  height:371rpx;
+  padding:20rpx;
+  margin:10rpx auto 20rpx;
+  font-size:24rpx;
+  border:1rpx solid #eeeeee;
+}
+.con2{
+  font-size:20rpx;
+  color:#666666;
+  text-align: center;
+  margin-bottom: 144rpx;
+}
+textarea{
+   border: solid 1px #999999;
+   width:90%;
+   margin: 0 auto 20rpx;
+
+}

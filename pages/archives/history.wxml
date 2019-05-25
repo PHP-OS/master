@@ -1,0 +1,74 @@
+<view class="container">
+  
+ <view class="header-title">
+    <view class="title"><view class="l">|</view>请选择既往史 </view>
+  </view>
+  <view class="con">
+    <view  class="item" bindtap="selected">
+      <view class="section__title left">过敏史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+    <view class="{{selected?'show':'hidden'}}"> 
+      <input class="allergy" placeholder='请简要描述曾药物过敏情况' bindinput='handleAllergySituation'></input>
+      <input class="allergy" placeholder='请输入过敏药物名称' bindinput='handleAllergyDrug'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleAllergyRemarks'></textarea>
+    </view>
+
+    <view  class="item" bindtap="selected1">
+      <view class="section__title left">用药史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+
+    <view class="{{selected1?'show':'hidden'}}">
+      <input class="allergy" placeholder='请简要描述曾使用药物情况' bindinput='handleMedicationSituation'></input>
+      <input class="allergy" placeholder='请输入药物名称' bindinput='handleMedicationDrug'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleMedicationRemarks'></textarea>
+    </view>
+
+    <view  class="item" bindtap="selected2">
+      <view class="section__title left">疾病史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+    <view class="{{selected2?'show':'hidden'}}">
+      <input class="allergy" placeholder='请简要描述疾病情况' bindinput='handleDiseaseSituation'></input>
+      <input class="allergy" placeholder='请输入疾病名称' bindinput='handleDiseaseName'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleDiseaseRemarks'></textarea>
+    </view>
+
+    <view  class="item" bindtap="selected3">
+      <view class="section__title left">手术史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+    <view class="{{selected3?'show':'hidden'}}">
+      <input class="allergy" placeholder='请简要描述曾手术情况' bindinput='handleOperationSituation'></input>
+      <input class="allergy" placeholder='请输入手术名称' bindinput='handleOperationName'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleOperationRemarks'></textarea>
+    </view>
+
+    <view  class="item" bindtap="selected4">
+      <view class="section__title left">输血史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+    <view class="{{selected4?'show':'hidden'}}">
+      <input class="allergy" placeholder='请简要描述输血情况' bindinput='handleBloodSituation'></input>
+      <input class="allergy" placeholder='请输入输血时间' bindinput='handleBloodDrug'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleBloodRemarks'></textarea>
+    </view>
+
+    <view  class="item" bindtap="selected5">
+      <view class="section__title left">家族遗传史</view>
+      <image class="bot right" src="../../images/img/03.jpg"></image>
+    </view>
+    <view class="{{selected5?'show':'hidden'}}">
+      <input class="allergy" placeholder='请简要描述遗传史情况' bindinput='handleInheritSituation'></input>
+      <input class="allergy" placeholder='请输入遗传史名称' bindinput='handleInheritDrug'></input>
+      <textarea class="all-text" placeholder='备注说明' bindinput='handleInheritRemarks'></textarea>
+    </view>
+  </view>
+
+  <button bindtap="handleSubmit">提交</button>
+  
+  
+  
+  
+</view>

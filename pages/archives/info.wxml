@@ -1,0 +1,72 @@
+<view class="container">
+  <view class="header-title">
+    <view class="title"><view class="l">|</view> 请填写基本信息   </view>
+  </view>
+  
+  <view class="con">
+    <view class="item">
+      <view class="left">姓名</view>
+      <input class="right inp-right" placeholder='' bindinput='bindchange1' value='{{staticData.name}}'></input>
+    </view>
+    <view class="item">
+      <view class="section">
+        <view class="left">性别</view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker right" >{{array[index]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view class="section">
+        <view class="section__title left">生日</view>
+        <picker
+          mode="date"
+          value="{{date}}"
+          start="2015-09-01"
+          end="2017-09-01"
+          bindchange="bindDateChange"
+        >
+          <view class="picker right">{{date}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view class="left">身份证号</view>
+      <input class="right inp-right" placeholder='' bindinput='bindchangeidentitycode' value='{{staticData.identitycode}}'></input>
+    </view>
+    
+    <view class="item">
+      <view class="left">联系方式</view>
+      <input class="right inp-right" placeholder='' bindinput='bindchangetelephone' value='{{staticData.telephone}}'></input>
+    </view>
+    <view class="item">
+      <view class="li" wx:for="{{whArray}}" wx:for-item="whitm" wx:for-index="whidx">
+        <view class="left">
+          {{whitm.title}}
+        </view>
+        <picker bindchange="bindChange_select3" value="{{whitm.index}}" data-current="{{whidx}}" range="{{whitm.option}}">
+          <view class='right' id="wh"> {{whitm.option[whitm.index]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item">
+      <view class="left">工作单位</view>
+      <input class="right inp-right" placeholder='' bindinput='bindchangework' value='{{staticData.work}}'></input>
+    </view>
+    <view class="item">
+      <view class="left">职业</view>
+      <input class="right inp-right" placeholder='' bindinput='bindchangezhiye' value='{{staticData.zhiye}}'></input>
+    </view>
+    <view>
+      <view class="li" wx:for="{{Array}}" wx:for-item="itm" wx:for-index="idx">
+        <view class="left">
+          {{itm.title}}
+        </view>
+        <picker bindchange="bindChange_select" value="{{itm.index}}" data-current="{{idx}}" range="{{itm.option}}">
+          <view class='right'> {{itm.option[itm.index]}} </view>
+        </picker>
+      </view>
+    </view>
+  </view>
+  <view class="footer-btn" bindtap='sub' >提交</view>
+</view>

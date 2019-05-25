@@ -1,0 +1,54 @@
+<view class="container">
+
+<!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image class="modalDlg" src="../../images/img/17.jpg" wx:if="{{showModal}}">
+    <text class="tishi-con">您确定要关闭当前对话吗？</text>
+    <button class="modal-btn" bindtap="go" >确认关闭</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view> -->
+
+<!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image class="modalDlg" src="../../images/img/17.jpg" wx:if="{{showModal}}">
+    <text class="tishi-con2">丹丹申请加时咨询</text>
+    <button class="modal-btn2" bindtap="go" >同意加时</button>
+    <button class="modal-btn3" bindtap="go" >拒绝加时</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view> -->
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image class="modalDlg" src="../../images/img/17.jpg" wx:if="{{showModal}}">
+    <text class="tishi-con2">咨询即将结束</text>
+    <button class="modal-btn2" bindtap="go" >加5分钟</button>
+    <button class="modal-btn3" bindtap="go" >不加时间</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view>
+
+  <view class="head">
+    <view class="head-left">剩余时间：120s</view>
+    <button class="head-btn" bindtap="submit">关闭</button>
+  </view>
+ <view class="con">
+    <view class="item">
+      <image class="item-img" src="../../images/img/4.jpg"></image>
+      <view class="item-con">你好</view>
+    </view> 
+
+    <view class="item1">
+      <image class="item1-img" src="../../images/img/4.jpg"></image>
+      <view class="item1-con">你好，我是陶笙医生！</view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="jia">+</view>
+    <input class="input" placeholder='请输入您要发送的信息'></input>
+    <view class="enter">
+      <image class="foot-img" src="../../images/img/16.png"></image>
+    </view>
+  </view>
+</view>

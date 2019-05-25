@@ -1,0 +1,168 @@
+page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  margin:0;
+  padding:0;
+  font-size:24rpx;
+  color:#333333;
+  background:#eeeeee;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 9000;
+    opacity: 0.7;
+}
+.modalDlg{
+    width: 463rpx;
+    height: 583rpx;
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    z-index: 9999;
+    margin: -370rpx 85rpx;
+    border-radius: 10rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big{
+  position: fixed;
+  top:45%;
+  left:45%;
+  text-align: center;
+  font-size:40rpx;
+}
+.tishi-con{
+  width:350rpx;
+  position: fixed;
+  top:50%;
+  left:30%;
+  text-align: center;
+  font-size:22rpx;
+}
+.modelgo{
+    width:100rpx;
+    position: fixed;
+    top: 70%;
+    left: 45%;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.go{
+  width:40rpx;
+  height:40rpx;
+  border:1rpx solid #ccc;
+  border-radius: 50rpx;
+}
+
+.top{
+  width:100%;
+  line-height:30rpx;
+  background:#4497f7;
+  text-align: center;
+  color:#ffffff;
+}
+.top-title{
+  font-size:32rpx;
+  margin-top:60rpx;
+}
+.consult-record{
+margin-left:620rpx;
+}
+.header{
+  width:100%;
+  text-align: center;
+}
+.img{
+  width:330rpx;
+  height:205rpx;
+  margin-top:30rpx;
+}
+.img1{
+  margin-right:25rpx;
+}
+.select{
+  width:690rpx;
+  height:100rpx;
+  margin:20rpx auto;
+  background:#fff;
+  border:1rpx solid #ccc;
+  border-radius: 50rpx;
+  position: relative;
+}
+.icon{
+  width:42rpx;
+  height:34rpx;
+  position:absolute;
+  top:33rpx;
+  left:38rpx;
+}
+.con{
+  width:640rpx;
+  height:250rpx;
+  margin:10rpx 20rpx;
+  overflow: hidden;
+  padding:43rpx 41rpx 30rpx 25rpx;
+  background:#ffffff;
+}
+.left{
+  width:340rpx;
+  float:left;
+  overflow: hidden;
+}
+.img2{
+  width:100rpx;
+  height:100rpx;
+  margin-right:20rpx;
+  float:left;
+}
+.name{
+  font-size:32rpx;
+  margin-top:10rpx;
+}
+.btn{
+  width:160rpx;
+  line-height:50rpx;
+  margin-top:20rpx;
+  font-size:24rpx;
+  color:#ffffff;
+  background-color: #4497f7;
+	border-radius: 6px;
+}
+.right{
+  width:300rpx;
+  height:150rpx;
+  float: right;
+}
+.head{
+  overflow: hidden;
+}
+.footer{
+  overflow: hidden;
+  text-align: center;
+}
+.l{
+  width:200rpx;
+  height:150rpx;
+  padding-top:20rpx;
+  float:left;
+}
+.red{
+  color:#c82424;
+  font-size:32rpx;
+}
+.gray{
+  color:#333333;
+}
+.left2{
+  margin:0 20rpx;
+}

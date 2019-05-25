@@ -1,0 +1,43 @@
+<!--pages/news/news.wxml-->
+<view class="container">
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">欢迎您加入小禾健康，赠您一张免费的XX券，您可以到我的-优惠券中查看哦</view>
+      <button class="look">去查看</button>
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">您咨询的xx医生回复了新消息</view>
+      <navigator url='../department/talk'><button class="look">继续沟通</button></navigator> 
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">您提交的报告有了解读消息</view>
+      <navigator url=''><button class="look">继续沟通</button></navigator> 
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">欢迎您加入小禾健康，赠您一张免费的XX券，您可以到我的-优惠券中查看哦</view>
+      <button class="look">继续沟通</button>
+    </view>
+  </view>
+</view>

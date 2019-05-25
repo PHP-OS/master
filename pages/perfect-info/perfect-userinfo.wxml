@@ -1,0 +1,49 @@
+<!--pages/perfect-info/perfect-info.wxml-->
+<!--logs.wxml-->
+<view class="container">
+  <view class="title">完善信息</view>
+  <view class="police">请填写以下信息</view>
+    <view class="info">
+      <view class="item" wx:for="{{objArray}}" wx:for-item="itm" wx:for-index="idx">
+        <view class="left">{{itm.title}}</view>
+        <picker bindchange="bindChange_select" value="{{itm.index}}" data-current="{{idx}}" range="{{itm.option}}">
+          <view class='right'>
+            <image class="img" src="../../images/img/20.png"></image>
+            <view class="text">{{itm.option[itm.index]}}</view>
+          </view>
+        </picker>
+        <text class="iconfont icon-gengduo"></text>
+      </view>
+      <view class="item">
+         <view class="left">紧急联系人电话</view>
+          <view class='right'>
+            <input class="text-inp" placeholder='12345678910'></input>
+          </view>
+      </view>
+      <view class="item" wx:for="{{stArray}}" wx:for-item="stitm" wx:for-index="stidx">
+        <view class="left2">{{stitm.title}}</view>
+        <picker bindchange="bindChange_select1" value="{{stitm.index}}" data-current="{{stidx}}" range="{{stitm.option}}">
+          <view class='right'>
+            <image class="img" src="../../images/img/20.png"></image>
+            <view class="text">{{stitm.option[stitm.index]}}</view>
+          </view>
+        </picker>
+        <text class="iconfont icon-gengduo"></text>
+      </view>
+      <view class="item">
+         <view class="left">在职属地</view>
+          <view class='right'>
+            <input class="text-inp" placeholder='河北省衡水市枣强县枣强镇早强村'></input>
+          </view>
+      </view>
+      <view class="item">
+         <view class="left">常住地址</view>
+          <view class='right'>
+            <input class="text-inp" placeholder='请输入详细地址'></input>
+          </view>
+      </view>
+     
+      <button class="btn">保存</button>
+    </view>
+</view>
+

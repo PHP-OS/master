@@ -1,0 +1,47 @@
+/* pages/basic-info/basic-info.wxss */
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size:26rpx;
+  background:#eeeeee;
+}
+.head{
+  width:100%;
+}
+.head-img{
+  width:100%;
+}
+.con{
+  width:100%;
+  margin:0;
+  background:#fff;
+}
+.title{
+  width:90%;
+  line-height: 15px;
+  padding-left:20rpx;
+  margin-top:30rpx;
+  margin-left:30rpx;
+	font-family: PingFang-SC-Regular;
+	font-size: 30rpx;
+  border-left:2px solid #297ce4;
+  color:#333333;
+}
+.item{
+  margin-left:30rpx;
+  width:668rpx;
+  line-height:93rpx;
+  overflow: hidden;
+  border-bottom: solid 1px #d7d7d7;
+}
+.right{
+  width:400rpx;
+  float:right;
+  text-align: right;
+  color: #999999;
+  margin-top:20rpx;
+}
+.left{
+  float:left;
+}

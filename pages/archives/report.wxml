@@ -1,0 +1,181 @@
+<view class="container">
+  <view class="top">重要声明：本报告内容仅供参考</view>
+  <view class="con">
+
+    <view class="item">
+      <view class="item-left">心脑血管</view>
+      <view class='item-right'>
+        <view class="right-text">15项指标
+          <image class='right-img' src="../../images/img/21.png"></image>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="item">
+      <view class="item-left">血液黏度</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          48.43507
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">胆固醇结晶</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          65.04421
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">甘油三酯</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          0.75076
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">血管阻力</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.84758
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">血管弹性</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn2">轻度</button>
+        <view class="right-text">
+          48.43507
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">心肌血液需量</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn1">中度</button>
+        <view class="right-text">
+          0.2074
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">心肌血液灌注量</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          3.38561
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">心肌耗氧量</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          3.38561
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">每搏心搏出量</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.48496
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">左心室喷血抗阻</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.1415
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">左心室有效泵力</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.58438
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">冠状动脉弹性</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.7115
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">冠状动脉灌注压</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          7.59191
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">脑血管弹性</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          1.18926
+        </view>   
+      </view>
+    </view>
+
+     <view class="item">
+      <view class="item-left">脑组织供血状况</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          14.98764
+        </view>   
+      </view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,89 @@
+.container{
+  background: #fff;
+}
+
+.scroll-view{
+  white-space: nowrap;
+  width: 100%;
+  border-bottom: 10px solid #f3f3f3;
+}
+.scroll-list{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  height: 40px;
+  width:22%;
+  text-align: center;
+  line-height: 40px;
+}
+.health-list{
+  padding: 20rpx;
+  width: 100%;
+  overflow: hidden;
+}
+.health-item{
+  padding: 15px;
+   overflow: hidden;
+}
+.health-top{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.health-top-l{
+  display: inline-block; 
+  font-size: 25rpx; 
+  color: #030000;
+  vertical-align: middle;
+  
+}
+.health-top-l image{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 15rpx;
+}
+.health-top-l .health-top-title{
+  display: inline-block;
+  vertical-align: middle;
+   margin-right: 20rpx;
+}
+.health-top-l .health-top-time{
+  display: inline-block;
+  vertical-align: middle;
+  color: #ababab;
+}
+.health-top-r{
+  display: inline-block;
+  font-size: 12px; 
+  color: #030000;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.health-top-r image{
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.health-top-r .health-top-num{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20rpx;
+  font-size: 25rpx;
+  color: #030000;
+}
+.img-bor{
+  border-radius: 15px;
+  box-shadow: 5rpx  10rpx 10rpx #ddd;
+  height: 500rpx;
+}
+.img-bor image{
+  width: 100%;
+  height: 100%;
+  
+}

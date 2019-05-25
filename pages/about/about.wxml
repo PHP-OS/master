@@ -1,0 +1,31 @@
+<view class="container">
+  <view class="tu">
+    <image class="header-tu" src="../../images/img/031.png"></image>
+  </view>
+  <view class="title">公司简介</view>
+  <view class="text">
+    <view><view class="kong"></view> 小禾智慧健康是北京小禾健康文化发展有限公司与健康中国研究中心、北京大学肿瘤医院专家会诊中心、北大医疗肿瘤诊疗中心、北京迦南门诊、北京京享医院管理有限公司联合打造的智慧健康管理平台。</view> 
+   <view><view class="kong"></view>目前，小禾智慧健康开展的业务主要集中在健康预警、防癌筛查、专业诊疗、居家享老、营养膳食等智慧健康管理领域。</view>
+  </view>
+  <view class="info">
+    <view class="item">
+      <view class="left">客服电话</view>
+      <view class="right blue">010-66666666</view>
+    </view>
+
+    <view class="item">
+      <view class="left">工作日</view>
+      <view class="right blue">010-66666666</view>
+    </view>
+
+    <view class="item">
+      <view class="left">客服邮箱</view>
+      <view class="right blue">service@nnfe.com</view>
+    </view>
+
+    <view class="item">
+      <view class="left">去评分</view>
+      <image class="right-img" src="../../images/img/032.png"></image>
+    </view>
+  </view>
+</view>

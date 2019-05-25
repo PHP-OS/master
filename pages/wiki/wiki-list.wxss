@@ -1,0 +1,131 @@
+.container{
+  background: #fff;
+}
+
+.scroll-view{
+  white-space: nowrap;
+  width: 100%;
+  border-bottom: 10px solid #f3f3f3;
+}
+.scroll-list{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  height: 40px;
+  width:22%;
+  text-align: center;
+  line-height: 40px;
+}
+.health-list{
+  padding:0  20rpx;
+  width: 100%;
+  overflow: hidden;
+}
+.health-item{
+  padding: 15px;
+   overflow: hidden;
+   border-bottom: 1px solid #ddd;
+}
+.health-item .title{
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20rpx;
+}
+.health-top{
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.health-top-l{
+  display: inline-block; 
+  font-size: 25rpx; 
+  color: #030000;
+  vertical-align: middle;
+  
+}
+.health-top-l image{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 15rpx;
+}
+.health-top-l .health-top-title{
+  display: inline-block;
+  vertical-align: middle;
+   margin-right: 20rpx;
+}
+.health-top-l .health-top-time{
+  display: inline-block;
+  vertical-align: middle;
+  color: #ababab;
+}
+.health-top-r{
+  display: inline-block;
+  font-size: 12px; 
+  color: #030000;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.health-top-r image{
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.health-top-r .health-top-num{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20rpx;
+  font-size: 25rpx;
+  color: #030000;
+}
+.img-bor{
+  border-radius: 15px;
+  box-shadow: 5rpx  10rpx 10rpx #ddd;
+  height: 270rpx;
+}
+.img-bor image{
+  width: 100%;
+  height: 100%;
+  
+}
+.health-item-l{
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+}
+.health-item-r{
+  display: inline-block;
+  width: 40%;
+  margin-right: 5%;
+}
+.health-item-r image{
+  width: 100%;
+  height: 200rpx;
+}
+.bottom-icon{
+}
+.bottom-icon .health-top-time{
+  display: inline-block;
+  vertical-align: middle;
+  color: #ababab;
+  font-size: 25rpx;
+  margin-right: 20rpx;
+}
+.bottom-icon image{
+  display: inline-block;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+.bottom-icon  .health-top-num{
+  display: inline-block;
+  vertical-align: middle;
+   margin-left: 10rpx;
+  font-size: 25rpx;
+  color: #030000;
+}

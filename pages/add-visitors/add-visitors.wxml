@@ -1,0 +1,40 @@
+<!--pages/add-visitors/add-visitors.wxml-->
+<view class="container">
+  <view class="title">就诊人信息</view>
+  <view class="item">
+    <view class="left">姓名</view>
+    <input class="right" type='text' placeholder='请输入真实姓名' bindinput='handleName'></input>
+  </view>
+  <view class="item">
+    <view class="left">身份证</view>
+    <input class="right" type='number' placeholder='一经填写无法修改，请谨慎填写' bindinput='handleIdCard'></input>
+  </view>
+   <view class="item">
+     <view class="li" wx:for="{{sexArray}}" wx:for-item="sexitm" wx:for-index="sexidx">
+         <view class="left">
+          {{sexitm.title}}
+         </view>
+          <picker bindchange="bindChange_select1" value="{{sexitm.index}}" data-current="{{sexidx}}" range="{{sexitm.option}}">
+            <view class='setcontext right'> {{sexitm.option[sexitm.index]}} 
+            </view>
+          </picker>
+      </view>
+  </view>
+  
+  <view class="item">
+     <view class="li" wx:for="{{objArray}}" wx:for-item="itm" wx:for-index="idx">
+         <view class="left">
+          {{itm.title}}
+         </view>
+          <picker bindchange="bindChange_select" value="{{itm.index}}" data-current="{{idx}}" range="{{itm.option}}">
+            <view class='setcontext right'> {{itm.option[itm.index]}} 
+            </view>
+          </picker>
+      </view>
+  </view>
+  <view class="item">
+    <view class="left">中国大陆+86</view>
+    <input class="right" type='number' placeholder='用于接收预约成功通知' bindinput='handlePhone'></input>
+  </view>
+  <button class="btn" bindtap='handleSubmit'>提交</button>
+</view>

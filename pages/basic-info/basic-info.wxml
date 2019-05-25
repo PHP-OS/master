@@ -1,0 +1,25 @@
+<!--pages/basic-info/basic-info.wxml-->
+<view class="container">
+  <view class="head">
+    <image class="head-img" src="../../images/img/3_02.jpg"></image>
+  </view>
+  <view class="con">
+    <view class="title">请填写基本信息</view>
+    <view class="item">
+      <view class="left">姓名</view>
+      <input class="right" placeholder="请输入真实姓名"></input>
+    </view>
+    <view class="item">
+      <view class="left">手机号</view>
+      <input class="right" placeholder="一经填写无法修改，请谨慎填写"></input>
+    </view>
+    <view class="item">
+      <view class="left">身份证号</view>
+      <input class="right" placeholder="必填项>"></input>
+    </view>
+    <view class="item">
+      <view class="left">我的邀请码</view>
+      <input class="right" placeholder="必填项>"></input>
+    </view>
+  </view> 
+</view>

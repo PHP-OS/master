@@ -1,0 +1,51 @@
+.page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#eeeeee;
+}
+.head{
+  width:100%;
+  height:275rpx;
+}
+.footer{
+  position: absolute;
+  top:240rpx;
+  right:0;
+  bottom:0;
+  left:0;
+  padding:50rpx 20rpx;
+  overflow: hidden;
+}
+.con{
+  width:690rpx;
+  margin:30rpx auto;
+}
+navigator{
+  width: 156rpx;
+	line-height: 60rpx;
+  margin:0 18rpx 50rpx 2rpx;
+  float:left;
+  text-align: center;
+  font-size: 30rpx;
+  color: #585858;
+	background-color: #f1f1fd;
+	border-radius: 5rpx;
+}
+
+
+
+.explain{
+  width:670rpx;
+  height:100rpx;
+  margin-top:70rpx;
+  float:left;
+  font-size:22rpx;
+  color:#666666;
+}
+.ex{
+  font-size:24rpx;
+}

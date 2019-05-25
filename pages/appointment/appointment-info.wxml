@@ -1,0 +1,39 @@
+<!--pages/basic-info/basic-info.wxml-->
+<view class="container">
+  <view class="con">
+    <view class="title">预约信息</view>
+    <view class="item">
+      <view class="left">就诊医生</view>
+      <view class="right">陶笙</view>
+    </view>
+    <view class="item">
+      <view class="left">门诊时间</view>
+      <view class="right">2019年04月03号    周三 下午</view>
+    </view>
+    <view class="item">
+      <view class="left">门诊类型</view>
+      <view class="right">专家门诊</view>
+    </view>
+    <view class="item">
+      <view class="left">服务费用</view>
+      <view class="right">100元</view>
+    </view>
+  </view>
+  <view class="con2">
+    <view class="item">
+      <view class="section">
+        <view class="left">就诊人</view>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class="picker right">{{array[index]}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="item1">
+      <view class="info">疾病信息</view>
+      <view>
+        <textarea class="text" placeholder='请简单描述您的疾病信息'></textarea>
+      </view>
+      <button class="btn">提交</button>
+    </view>
+  </view>
+</view>

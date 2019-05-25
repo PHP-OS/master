@@ -1,0 +1,15 @@
+<view class="container">
+  <image class="head" src="../../images/img/13.jpg"></image>
+  <view class="footer" >
+    <view class="con" wx:for="{{dsections}}" wx:for-item="dsection">
+      <navigator url="">{{dsection.secname}}</navigator>
+    </view>
+    <view class="explain">
+      <view class="ex">预约说明：</view>
+      <view class="exp">1、挂号时间说明；</view>
+      <view class="exp">2、手术时间预约说明。</view>
+    </view>
+  </view>
+  
+
+</view>

@@ -1,0 +1,64 @@
+<view class="container">
+  <view class="con">
+  <view class="selection">
+    <view class="time-sec">
+      <picker  bindchange="bindPickerChange" value="{{index}}" range="{{dateList}}" >
+        <view class="picker">
+        <view class="time">{{dateList[index]}}</view>
+         <image class="select" src="../../images/img/03.jpg"></image>
+        </view>
+        </picker>
+    </view>
+    <view class="adds-sec">
+      <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array}}">
+        <view class="address">
+          {{array[index1]}}
+        </view>
+        <image class="select" src="../../images/img/03.jpg"></image>
+      </picker>
+    </view>
+  </view>
+    
+
+    <view class="name">某某某体检报告</view>
+      <view class="item1">
+        <view class="item-left">心脑血管</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/img/03.jpg"></image>
+          <view class="item-con">15项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">脑神经</view>
+        <view class="item-right">
+        <image class="select1" src="../../images/img/03.jpg"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肝功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/img/03.jpg"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肺功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/img/03.jpg"></image>
+          <view class="item-con">5项指标</view>
+        </view>
+      </view>
+
+      <view class="item1">
+        <view class="item-left">肾功能</view>
+        <view class="item-right">
+          <image class="select1" src="../../images/img/03.jpg"></image>
+          <view class="item-con">4项指标</view>
+        </view>
+      </view>
+  </view>
+</view>

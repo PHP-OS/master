@@ -1,0 +1,100 @@
+<view class='container'>
+    <scroll-view scroll-x="true" class='scroll-view'>
+      <view class="scroll-list">推荐</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+      <view class="scroll-list">健康之家</view>
+    </scroll-view>
+    <view class='health-list'>
+        
+        <view class='health-item'>
+            <view class='health-item-r'>
+              <image mode='scaleToFill' src='/images/bk7.png'></image>
+            </view>
+            <view class='health-item-l'>
+                <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+                </view>
+                <view class='title'>30个回答！让你瞬间豁然开朗（精辟）</view>
+                <view class='bottom-icon'>
+                      <view class='health-top-time'>7小时前</view>
+                </view>
+            </view>
+        </view>
+         <view class='health-item'>
+            <view class='health-item-r'>
+              <image mode='scaleToFill' src='/images/bk7.png'></image>
+            </view>
+            <view class='health-item-l'>
+                <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+                </view>
+                <view class='title'>30个回答！让你瞬间豁然开朗（精辟）</view>
+                <view class='bottom-icon'>
+                      <view class='health-top-time'>7小时前</view>
+                </view>
+            </view>
+        </view>
+         <view class='health-item'>
+            <view class='health-item-r'>
+              <image mode='scaleToFill' src='/images/bk7.png'></image>
+            </view>
+            <view class='health-item-l'>
+                <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+                </view>
+                <view class='title'>30个回答！让你瞬间豁然开朗（精辟）</view>
+                <view class='bottom-icon'>
+                      <view class='health-top-time'>7小时前</view>
+                </view>
+            </view>
+        </view>
+         <view class='health-item'>
+            <view class='health-item-r'>
+              <image mode='scaleToFill' src='/images/bk7.png'></image>
+            </view>
+            <view class='health-item-l'>
+                <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+                </view>
+                <view class='title'>30个回答！让你瞬间豁然开朗（精辟）</view>
+                <view class='bottom-icon'>
+                      <view class='health-top-time'>7小时前</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

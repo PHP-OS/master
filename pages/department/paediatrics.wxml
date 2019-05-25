@@ -1,0 +1,76 @@
+<view class="contaier">
+  <view class="calendar">
+    <view class="cal-con">
+      <view class="cal-top">不限</view>
+      <view class="cal-bot">日期</view>
+    </view>
+
+    <view class="cal-con">
+      <view class="cal-top">周一</view>
+      <view class="cal-bot">03:18</view>
+    </view>
+
+    <view class="cal-con">
+      <view class="cal-top">周二</view>
+      <view class="cal-bot">03:19</view>
+    </view>
+
+    <view class="cal-con">
+      <view class="cal-top">周三</view>
+      <view class="cal-bot">03:20</view>
+    </view>
+    
+    <view class="cal-con">
+      <view class="cal-top">周四</view>
+      <view class="cal-bot">03:21</view>
+    </view>
+
+    <view class="cal-con">
+      <view class="cal-top">周五</view>
+      <view class="cal-bot">03:22</view>
+    </view>
+  </view>
+  <view class="item">
+    <image class="imgInfo" src="../../images/img/4.jpg"></image>
+    <view class="con">
+      <view class="con-top">
+        <view class="left">陶笙</view>
+        <view class="blue">主任医师</view>
+      </view>
+      <view class="gray">
+        <view class="gray-top">
+          <view class="gray-left">评分：9.0</view>
+          <view class="gray-right">评分：999</view>
+        </view>
+          <view>擅长：骨折、骨不连等修复...</view>
+      </view>
+      <view class="footer">
+        <navigator url='../appointment/index' class="btn">立即预约</navigator>
+        <navigator url='../department/talk' class="btn">立即咨询</navigator>
+        <navigator url='../interpret/interpret' class="btn">报告解读</navigator>
+      </view>
+    </view>
+  </view>
+
+  <view class="item">
+    <image class="imgInfo" src="../../images/img/4.jpg"></image>
+    <view class="con">
+      <view class="con-top">
+        <view class="left">陶笙</view>
+        <view class="blue">主任医师</view>
+      </view>
+      <view class="gray">
+        <view class="gray-top">
+          <view class="gray-left">评分：9.0</view>
+          <view class="gray-right">评分：999</view>
+        </view>
+          <view>擅长：骨折、骨不连等修复...</view>
+      </view>
+      <view class="footer">
+        <button class="btn">立即预约</button>
+        <button class="btn">立即咨询</button>
+        <button class="btn">报告解读</button>
+      </view>
+    </view>
+  </view>
+</view>

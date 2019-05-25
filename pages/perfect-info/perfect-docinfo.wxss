@@ -1,0 +1,81 @@
+/* pages/perfect-info/perfect-info.wxss */
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#ffffff;
+  overflow: hidden;
+  font-size:30rpx;
+}
+.title{
+  width:710rpx;
+  margin-top:114rpx;
+  font-size: 48rpx;
+  text-align: left;
+}
+.police{
+  width:700rpx;
+	height: 30rpx;
+  padding-left:rpx;
+  text-align: left;
+	font-family: PingFang-SC-Regular;
+	font-size: 26rpx;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 34rpx;
+	letter-spacing: 2rpx;
+	color: #73757f;
+}
+.info{
+  width:100%;
+}
+.item{
+  width:710rpx;
+  line-height:100rpx;
+  overflow: hidden;
+  margin-left:40rpx;
+  color: #666666;
+  border-bottom:1rpx solid #e6e6e6;
+}
+.item .left{
+  float:left;
+}
+.item .right{
+  float:right;
+  width:300rpx;
+  margin-right:40rpx;
+}
+.item .left2{
+  width:150rpx;
+  float:left;
+}
+.right view{
+  float:right;
+}
+.text{
+  margin-right:10rpx;
+}
+.text-inp{
+  float:right;
+  text-align: right;
+  margin-right:20rpx;
+  width:550rpx;
+  height:100rpx;
+  line-height: 100rpx;
+}
+.img{
+  width:16rpx;
+  height:30rpx;
+  float:right;
+  margin-top:40rpx;
+}
+
+.btn{
+  width:200rpx;
+  line-height:80rpx;
+  text-align:center;
+  color:#ffffff;
+  font-size:28rpx;
+  background:#4497f7;
+  margin:112rpx auto;
+}

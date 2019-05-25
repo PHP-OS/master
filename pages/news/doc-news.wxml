@@ -1,0 +1,45 @@
+<!--pages/news/news.wxml-->
+<view class="container">
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">xx向您咨询xx病况</view>
+      <button class="talk">立即沟通</button>
+      <button class="look">查看病例</button>
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">xx向您咨询xx病况</view>
+      <button class="look">立即沟通</button>
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">xx向您咨询xx病况</view>
+      <button class="talk">立即沟通</button>
+      <button class="look">查看病例</button>
+    </view>
+  </view>
+  <view class="news">
+    <view class="time">
+      <view class="time-con">2018年1月15日 13:47</view>
+    </view>
+    <view class="content">
+      <image class="tu" src="../../images/img/1_03.jpg"></image>
+      <view class="text">您咨询的xx医生回复了新消息</view>
+      <button class="look">继续沟通</button>
+    </view>
+  </view>
+</view>

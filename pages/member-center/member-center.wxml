@@ -1,0 +1,89 @@
+<view class="container">
+  <view class="name">
+    <image class="name-img" src="{{staticData.avatar}}"></image>
+    <view class="user">
+      <view class="say">你好，{{staticData.username}}</view>
+      <view class="userdj"> {{staticData.grade}} </view>
+    </view>
+    <view class="info">
+      <view class="balance">余额：{{staticData.balance}}</view>
+      <button class="info-btn">充值</button>
+    </view>
+  </view>
+  <view class="privilege">
+    <view class="pri-title"><view class="shu">|</view>天使会员特权</view>
+    <view class="pri-item">
+      <image class="icon" src="../../images/img/021.png"></image>
+      <view class="pri-text">一键缴费挂号特权</view>
+      <navigator url='../department/department' class="pri-btn">立即挂号</navigator>
+    </view>
+    <view class="pri-item">
+      <image class="icon" src="../../images/img/022.png"></image>
+      <view class="pri-text">一键缴费挂号特权</view>
+      <navigator url='../department/department' class="pri-btn">立即挂号</navigator>
+    </view>
+    <view class="pri-item">
+      <image class="icon" src="../../images/img/024.png"></image>
+      <view class="pri-text">一键缴费挂号特权</view>
+      <navigator url='../department/department' class="pri-btn">立即挂号</navigator>
+    </view>
+    <view class="pri-item">
+      <image class="icon" src="../../images/img/023.png"></image>
+      <view class="pri-text">一键缴费挂号特权</view>
+      <navigator url='../department/department' class="pri-btn">立即挂号</navigator>
+    </view>
+  </view>
+  <view class="book">
+    <view class="pri-title">
+      <view class="shu">|</view>
+      <view class="text">天使会员特权</view>
+      <view class="more">更多></view>
+    </view>
+    <view class="book-li">
+      <image class="book-img" src="../../images/img/026.png"></image>
+      <view class="img-text">线上问诊疾病早知道！</view>
+    </view>
+    <view class="book-li">
+      <image class="book-img" src="../../images/img/025.png"></image>
+      <view class="img-text">关爱生命，我们就要告别一切不良嗜好，远离那...</view>
+    </view>
+  </view>
+  <view class="vip">
+    <view class="pri-title"><view class="shu">|</view>会员专享</view>
+    <view class="vip-item">
+      <image class="vip-img" src="../../images/img/027.png"></image>
+      <view class="goods-title">五常大米</view>
+      <view class="goods-footer">
+        <view class="left">￥40</view>
+        <image class="right" src="../../images/img/029.png"></image>
+      </view>
+    </view>
+
+    <view class="vip-item">
+      <image class="vip-img" src="../../images/img/028.png"></image>
+      <view class="goods-title">五常大米</view>
+      <view class="goods-footer">
+        <view class="left">￥40</view>
+        <image class="right" src="../../images/img/029.png"></image>
+      </view>
+    </view>
+
+    <view class="vip-item item2">
+      <image class="vip-img" src="../../images/img/027.png"></image>
+      <view class="goods-title">五常大米</view>
+      <view class="goods-footer">
+        <view class="left">￥40</view>
+        <image class="right" src="../../images/img/029.png"></image>
+      </view>
+    </view>
+
+    <view class="vip-item item2">
+      <image class="vip-img" src="../../images/img/027.png"></image>
+      <view class="goods-title">五常大米</view>
+      <view class="goods-footer">
+        <view class="left">￥40</view>
+        <image class="right" src="../../images/img/029.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

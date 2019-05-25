@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="head">已结束</view>
+  <view class="con">
+    <view class="item">
+      <image class="item-img" src="../../images/img/4.jpg"></image>
+      <view class="item-con">你好！</view>
+    </view> 
+
+    <view class="item1">
+      <image class="item1-img" src="../../images/img/4.jpg"></image>
+      <view class="item1-con">你好，我是陶笙医生！</view>
+    </view>
+
+     <view class="item">
+      <image class="item-img" src="../../images/img/4.jpg"></image>
+      <view class="item-con">你好！</view>
+    </view> 
+  </view>
+  <view class="footer">
+    <view class="jia">+</view>
+    <input class="input" placeholder='请输入您要发送的信息'></input>
+    <view class="enter">
+      <image class="foot-img" src="../../images/img/16.png"></image>
+    </view>
+  </view>
+</view>  

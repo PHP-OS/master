@@ -1,0 +1,58 @@
+page{
+  background:#F5F5F5;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#F5F5F5;
+  font-size:30rpx;
+  color:#999999;
+}
+.header{
+  width:100%;
+  height:129rpx;
+  background:#4497f7;
+  overflow: hidden;
+}
+.head-left{
+  width:16rpx;
+  height:30rpx;
+  margin-top:70rpx;
+  margin-left:30rpx;
+  float:left;
+}
+.head-title{
+  color:#fff;
+  margin-top:70rpx;
+  margin-left:315rpx;
+}
+.con{
+  width:100%;
+  background:#F5F5F5;
+}
+.item{
+  overflow: hidden;
+  width:650rpx;
+  line-height:50rpx;
+  background:#fff;
+  margin:20rpx auto 0;
+  padding:20rpx;
+  font-size:30rpx;
+  color: #666666;
+}
+.item-left{
+  float:left;
+}
+.item-right{
+  overflow: hidden
+}
+.right-img{
+  width:40rpx;
+  height:30rpx;
+  margin:10rpx;
+  float:right;
+}
+.right-text{
+  float:right;
+}

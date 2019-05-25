@@ -1,0 +1,25 @@
+
+<view class="container">
+  <view class="header1">
+    <view class="img" bindtap='goBack'><image class="head-img" src="../../images/img/6.png"></image></view>
+    <view class="head-title">解读报告</view>
+  </view>
+  
+  <view class="gray"></view>
+  <view class="head"> <view class="shu">|</view>您提交的用户病例 </view>
+  <view class="tu">
+    <image class="img1" src='../../images/bl1.png'></image>
+    <image class="img2" src='../../images/bl1.png'></image>
+  </view>
+  <view class="head1"> <view class="shu">|</view>用户描述 </view>
+  <text class="describe">医生您好，我的肚子总是疼，在我们县城医院做了CT......，
+麻烦您给我看一下 </text>
+<view class="gray"></view>
+<view class="container2">
+  <view class="head2"> <view class="shu">|</view>我的解读 </view>
+  <view class="text">您好，就您这个病情，我的建议是您如何如何如何何如何何我的建议是您何何如何何如何何如何何如何何如何何如何何如何何如何何如何何如何何如何何如何我的建议是您何</view>
+  <view class="con2">温馨提示：您需要在4月18日 16:00前完成解读并提交</view>
+  <button>提交</button>
+</view>
+
+</view>

@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="title">请输入您想修改的类别，运营人员核实后修改</view>
+  <input placeholder='请输入详细修改信息' bindinput='handleInfo'></input>
+  <button bindtap='handleSubmit'>提交</button>
+</view>

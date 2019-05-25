@@ -1,0 +1,64 @@
+<view class="container">
+  <view class="tu">
+    <image class="header-tu" src="../../images/img/2_03.jpg"></image>
+  </view>
+  <view class="info">
+    <view class="item">
+      <view class="left">姓名</view>
+      <view class="right">刘丹</view>
+    </view>
+
+    <view class="item">
+      <view class="left">年龄</view>
+      <view class="right">28</view>
+    </view>
+
+    <view class="item">
+      <view class="left">性别</view>
+      <view class="right">女</view>
+    </view>
+
+    <view class="item">
+      <view class="left">警种</view>
+      <view class="right">交警</view>
+    </view>
+
+    <view class="item">
+      <view class="left">警衔</view>
+      <view class="right">二级</view>
+    </view>
+
+    <view class="item">
+      <view class="left">职级</view>
+      <view class="right">二级</view>
+    </view>
+
+    <view class="item">
+      <view class="left">警号</view>
+      <view class="right">058962</view>
+    </view>
+
+    <view class="item">
+      <view class="left">身体状况</view>
+      <view class="right">亚健康</view>
+    </view>
+
+    <view class="item">
+      <view class="left">手机号码</view>
+      <view class="right">18310770981</view>
+    </view>
+
+    <view class="item">
+      <view class="left">在职属地</view>
+      <view class="right">河北省衡水市枣强县枣强镇张秀屯乡</view>
+    </view>
+
+    <view class="item">
+      <view class="left">家庭住址</view>
+      <view class="right">河北省衡水市枣强县枣强镇XXX小区XXX号</view>
+    </view>
+
+    <button class="btn" bindtap='modifyInfo'>修改资料</button>
+  </view>
+</view>
+

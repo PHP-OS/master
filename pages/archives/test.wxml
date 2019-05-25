@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="header-title">
+    <view class="title"><view class="l">|</view> 基本指标情况</view>
+  </view>
+
+  <view class="item">
+      <view class="item-left">体重</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          78KG
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="item-left">血压</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn2">轻度</button>
+        <view class="right-text">
+          120/96MMGH
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="item-left">心率</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn1">中度</button>
+        <view class="right-text">
+          102BPM
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="item-left">血压</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          120/96MMGH
+        </view>   
+      </view>
+    </view>
+
+    <view class="item">
+      <view class="item-left">血脂</view>
+      <view class='item-right'>
+        <image class='right-img2' src="../../images/img/20.png"></image>
+        <button class="right-btn">正常</button>
+        <view class="right-text">
+          120MMOL/L
+        </view>   
+      </view>
+    </view>
+
+</view>

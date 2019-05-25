@@ -1,0 +1,55 @@
+/* pages/add-visitors/add-visitors.wxss */
+page{
+  background:#eeeeee;
+}
+.container{
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size:28rpx;
+  background:#fff;
+}
+.title{
+  width:90%;
+  line-height: 15px;
+  padding-left:20rpx;
+  margin-top:30rpx;
+	font-family: PingFang-SC-Regular;
+	font-size: 30rpx;
+  border-left:2px solid #297ce4;
+  color:#333333;
+  margin-bottom: 20rpx;
+}
+.item{
+  width:668rpx;
+  line-height:93rpx;
+  overflow: hidden;
+  border-bottom: solid 1px #d7d7d7;
+}
+.right{
+  float:right;
+  color: #999999;
+  text-align: right;
+  width: 60%;
+}
+.left{
+  float:left;
+}
+.btn{
+  width:200rpx;
+  line-height:80rpx;
+  margin:110rpx 274rpx 110rpx 274rpx;
+  background-color: #4497f7;
+	border-radius: 5px;
+  color:#ffffff;
+}
+.item input{
+  height: 93rpx;
+  text-align: right;
+}
+.picker{
+  overflow: hidden;
+}
+.picker .right{
+ text-align: right;
+}

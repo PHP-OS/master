@@ -1,0 +1,202 @@
+<view class="container">
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<image src="../../images/img/01-03.jpg" class="modalDlg" wx:if="{{showModal}}">
+   <text class="big">完善信息</text>
+    <button class="modal-btn"  bindtap="submit">去完善信息</button>
+</image>
+<view wx:if="{{showModal}}" class="modelgo">
+  <image class="go" bindtap="go" src="../../images/img/t2.png"></image>
+</view>
+
+    <view class='banner' bindtap="submit">
+      <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+        <block wx:for="{{movies}}" wx:for-index="index">
+          <swiper-item>
+            <image src="{{item.picurl}}" mode='scaleToFill' class="slide-image" mode="aspectFill" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class='list-kind'>
+      <view class="icon-view">
+        <view class='kinds' wx:for="{{navigation}}" wx:for-item="item" >
+          <navigator class='kinds-box' url='{{item.url}}' >
+            <image mode='aspectFit' src="{{item.picurl}}"></image>
+            <view class='kind'>{{item.name}}</view>  
+          </navigator>
+        </view>
+        <!-->
+        <view class='kinds'>
+          <view class='kinds-box' bindtap='HealthConsult'>
+            <image mode='aspectFit' src="/images/order/order2.png"></image>
+            <view class='kind'>健康咨询</view>
+          </view>
+        </view>
+        <view class='kinds'>
+          <view class='kinds-box'  bindtap='DanganManage'>
+            <image mode='aspectFit' src="/images/order/order3.png"></image>
+            <view class='kind'>档案管理</view>  
+          </view>
+        </view>
+        <view class='kinds'>
+          <view class='kinds-box'  bindtap=''>
+            <image mode='aspectFit' src="/images/order/order4.png"></image>
+            <view class='kind'>套餐服务</view>  
+          </view>
+        </view>
+        <view class='kinds'>
+          <view class='kinds-box'>
+            <image mode='scaleToFill' src="/images/order/order5.png"></image>
+            <view class='kind'>健康商城</view>  
+          </view>
+        </view>
+        <-->
+      </view>
+    </view>
+    <view class='hybanner'>
+      <view class='hybanner-inner'>
+        <image mode='aspectFit' src='/images/hybanner.png'></image>
+      </view>
+    </view>
+    <view class='service'>
+       <view class="service-title">
+          <view class='bor-left'></view>
+           <view class='bor-right'>小禾服务</view>
+        </view>
+        <view class='ser-items'>
+            <view class='ser-items-top'>
+               <view class='ser-item-l'>
+                <image mode="aspectFit" src='/images/vip1.png'></image>
+               </view>
+               <view class='ser-item-r'>
+                <image mode="aspectFit" src='/images/vip2.png'></image>
+               </view>
+            </view>
+            <view class='ser-items-bottom'>
+              <view class='bot-item-l'>
+                <image mode="aspectFit" src='/images/vip3.png'></image>
+               </view>
+               <view class='bot-item-m'>
+                <image mode="aspectFit" src='/images/vip4.png'></image>
+               </view>
+               <view class='bot-item-r'>
+                <image mode="aspectFit" src='/images/vip5.png'></image>
+               </view>
+            </view>
+        </view>
+    </view> 
+    <view class='service'>
+       <view class="service-title">
+          <view class='bor-left'></view>
+           <view class='bor-right'>小禾筛查</view>
+        </view>
+        <view class='ser-items'>
+            <view class='ser-items-top'>
+               <view class='ser-item-l'>
+                <image mode="aspectFit" src='/images/sc1.png'></image>
+               </view>
+               <view class='ser-item-r'>
+                <image mode="aspectFit" src='/images/sc2.png'></image>
+               </view>
+            </view>
+        </view>
+    </view>
+    <view class='service'>
+       <view class="service-title">
+          <view class='bor-left'></view>
+           <view class='bor-right'>小禾百科</view>
+           <rich-text class='more' bindtap='ToMore'>更多 ></rich-text>
+        </view>
+        <view class='baike-items'>
+          <view class='baike-list'>
+              <view class='baike-image'>
+                 <image mode="scaleToFill" src='/images/sc3.png'></image>
+              </view>
+              <view class='baike-text'>
+                线上问诊疾病早知道！
+              </view>
+          </view>
+          <view class='baike-list'>
+              <view class='baike-image'>
+                 <image mode="scaleToFill" src='/images/sc4.png'></image>
+              </view>
+              <view class='baike-text'>
+                关爱生命，我们就要告别一切不良嗜好，远离不良嗜好
+              </view>
+          </view>                 
+        </view>
+    </view>
+   <view class='service'>
+       <view class="service-title">
+          <view class='bor-left'></view>
+           <view class='bor-right'>小禾优选</view>
+        </view>
+        <view class='youxuan-items'>
+              <view class='youxuan-item'>
+                  <view class='youxuan-item-inner'>
+                    <view class='baike-image'>
+                      <image mode="scaleToFill" src='/images/list1.png'></image>
+                    </view>
+                    <view class='yx-text'>
+                        <view class='title'>五常大米</view>
+                        <view class='chart'>
+                          <view class='chart-l'>￥100</view>
+                          <view class='chart-r'>
+                            <image src='/images/list3.png'></image>
+                          </view>
+                        </view>
+                    </view>
+                  </view>   
+              </view>
+              <view class='youxuan-item'>
+                  <view class='youxuan-item-inner'>
+                    <view class='baike-image'>
+                      <image mode="scaleToFill" src='/images/list2.png'></image>
+                    </view>
+                    <view class='yx-text'>
+                        <view class='title'>五常大米</view>
+                        <view class='chart'>
+                          <view class='chart-l'>￥100</view>
+                          <view class='chart-r'>
+                            <image src='/images/list3.png'></image>
+                          </view>
+                        </view>
+                    </view>
+                  </view>   
+              </view>
+              <view class='youxuan-item'>
+                  <view class='youxuan-item-inner'>
+                    <view class='baike-image'>
+                      <image mode="scaleToFill" src='/images/list1.png'></image>
+                    </view>
+                    <view class='yx-text'>
+                        <view class='title'>五常大米</view>
+                        <view class='chart'>
+                          <view class='chart-l'>￥100</view>
+                          <view class='chart-r'>
+                            <image src='/images/list3.png'></image>
+                          </view>
+                        </view>
+                    </view>
+                  </view>   
+              </view>
+              <view class='youxuan-item'>
+                  <view class='youxuan-item-inner'>
+                    <view class='baike-image'>
+                      <image mode="scaleToFill" src='/images/list2.png'></image>
+                    </view>
+                    <view class='yx-text'>
+                        <view class='title'>五常大米</view>
+                        <view class='chart'>
+                          <view class='chart-l'>￥100</view>
+                          <view class='chart-r'>
+                            <image src='/images/list3.png'></image>
+                          </view>
+                        </view>
+                    </view>
+                  </view>   
+              </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,30 @@
+<!--pages/appointment/appointment.wxml-->
+<view class="container">
+  <view class="info">
+    <image class="portrait" src="../../images/img/4.jpg"></image>
+    <view class="name_doctor">
+      <view class="name">陶笙</view>
+      <view class="doctor">主任医师</view>
+    </view>
+    <view class="gray">
+      <view class="left">评分：9.0</view>
+      <view class="right">评分：999</view>
+    </view>
+    <view class="gray1">擅长：骨折、骨不连等修复...</view>
+    <view class="address">
+      <image class="icon" src="../../images/img/5.jpg"></image>
+      <view>骨科_中国人民解放军总医院301医院</view>
+    </view> 
+    <view class="consultation_time">
+      <view class="consultation">
+        <view class="gray2">咨询时间：</view>
+        <view class="blue">30分钟</view>
+      </view>
+      <view class="time">
+        <view class="gray2">费用合计：</view>
+        <view class="blue">10元</view>
+      </view>
+    </view>
+  </view>
+  <button class="btn">提交</button>
+</view>

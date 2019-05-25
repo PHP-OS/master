@@ -1,0 +1,62 @@
+<view class='container'>
+    <scroll-view scroll-x="true" class='scroll-view'>
+      <view class="scroll-list" bindtap='rec'>推荐</view>
+        <view class="scroll-list" wx:for="{{scroll}}" wx:for-item="item" data-name="{{item.id}}" bindtap='typearticle'>
+          {{item.name}}
+        </view>
+    </scroll-view>
+    <view class='health-list' wx:for="{{article}}" wx:for-item="articleItem" >
+    <view class='health-item'>
+            <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>{{articleItem.title}}</view>
+                    <view class='health-top-time'>{{articleItem.createtime}}前</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>{{articleItem.readnum}}</view>
+                </view>
+            </view>
+             <view class='img-bor'>
+               <image mode='scaleToFill' src='{{articleItem.pic}}'></image>
+             </view> 
+        </view>
+     <!-->
+       <view class='health-item'>
+            <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                    <view class='health-top-time'>7小时前</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+            </view>
+             <view class='img-bor'>
+               <image mode='scaleToFill' src='/images/bk5.png'></image>
+             </view> 
+        </view>
+       
+       <view class='health-item'>
+            <view class='health-top'>
+                <view class='health-top-l'>
+                    <image src='/images/bk1.png'></image>
+                    <view class='health-top-title'>每日胎教</view>
+                    <view class='health-top-time'>7小时前</view>
+                </view>
+                <view class='health-top-r'>
+                  <image src='/images/bk4.png'></image>
+                  <view  class='health-top-num'>520</view>
+                </view>
+            </view>
+             <view class='img-bor'>
+               <image mode='scaleToFill' src='/images/bk5.png'></image>
+             </view> 
+        </view>
+
+        <-->
+    </view>
+</view>

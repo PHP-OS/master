@@ -1,0 +1,47 @@
+page{
+  background:#eeeeee;
+}
+.container{
+  background:#eeeeee;
+  width:100%;
+  padding:0;
+  margin:0;
+  font-size:24rpx;
+}
+.item{
+  height:223rpx;
+  width:100%;
+  background:#fff;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.img{
+  width:160rpx;
+  height:160rpx;
+  margin:20rpx;
+  float:left;
+}
+.con{
+  margin-top:30rpx;
+  overflow: hidden;
+  width:500rpx;
+}
+.left{
+  font-size:34rpx;
+  float: left;
+  margin-right:10rpx;
+}
+.blue{
+  color: #4497f7;
+  line-height:59rpx;
+  float: left;
+}
+.yuyue{
+  float:right;
+  color:#4497f7;
+  line-height: 59rpx;
+}
+.gray{
+  color:#999999;
+}
+

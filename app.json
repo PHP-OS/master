@@ -1,0 +1,83 @@
+{
+  "pages": [
+    
+    
+    "pages/perfect-info/perfect-docinfo",
+    "pages/index/index",
+    "pages/department/doc-interpret",
+    "pages/archives/health-report",
+    "pages/archives/report",
+    "pages/perfect-info/perfect-info",
+    "pages/perfect-info/perfect-userinfo",
+    "pages/my/info",
+    "pages/advisory-record/advisory-record",
+    "pages/shop-cart/index",
+    "pages/my/index",
+    "pages/my/modify",
+    "pages/news/news",
+    "pages/news/doc-news",
+    "pages/add-visitors/add-visitors",
+    "pages/basic-info/basic-info",
+    "pages/appointment/index",
+    "pages/appointment/appointment-info",
+    "pages/appointment/appointment-record",
+    "pages/appointment/appointment",
+    "pages/department/department",
+    "pages/department/paediatrics",
+    "pages/health-consult/advisory-record",
+    "pages/health-consult/health-consult",
+    "pages/health-consult/health-chat",
+    "pages/member-center/member-center",
+    "pages/archives/sun",
+    "pages/archives/history",
+    "pages/archives/index",
+    "pages/archives/test",
+    "pages/archives/info",  
+    "pages/about/about", 
+    "pages/wiki/wiki"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#333",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/nav/healthoff.png",
+        "selectedIconPath": "images/nav/healthon.png",
+        "text": "智慧健康"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "images/nav/newsoff.png",
+        "selectedIconPath": "images/nav/newson.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/shop-cart/index",
+        "iconPath": "images/nav/cartoff.png",
+        "selectedIconPath": "images/nav/carton.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/nav/myoff.png",
+        "selectedIconPath": "images/nav/myon.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx56c8f077de74b07c"
+  ],
+  "sitemapLocation": "sitemap.json"
+}

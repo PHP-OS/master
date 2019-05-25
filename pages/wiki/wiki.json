@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "百科列表",
+  "navigationBarBackgroundColor": "#4497F7",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": true
+}

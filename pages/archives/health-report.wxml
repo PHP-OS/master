@@ -1,0 +1,114 @@
+<view class="container">
+
+  <view class="con">
+    <view class="item">
+      <view class="item-left">心脑血管</view>
+      <view class='item-right'>
+        <view class="right-text">15项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">肝功能</view>
+      <view class='item-right'>
+        <view class="right-text">5项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">胃肠功能</view>
+      <view class='item-right'>
+        <view class="right-text">5项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">胆功能</view>
+      <view class='item-right'>
+        <view class="right-text">5项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">肺功能</view>
+      <view class='item-right'>
+        <view class="right-text">4项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">肾功能</view>
+      <view class='item-right'>
+        <view class="right-text">5项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">男性性功能</view>
+      <view class='item-right'>
+        <view class="right-text">3项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">肾脏功能</view>
+      <view class='item-right'>
+        <view class="right-text">4项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">前列腺</view>
+      <view class='item-right'>
+        <view class="right-text">3项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">微量元素</view>
+      <view class='item-right'>
+        <view class="right-text">5项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="item">
+      <view class="item-left">维生素</view>
+      <view class='item-right'>
+        <view class="right-text">10项指标
+          <image class='right-img' src="../../images/img/03.jpg"></image>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

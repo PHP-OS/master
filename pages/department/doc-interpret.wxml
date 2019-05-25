@@ -1,0 +1,56 @@
+<!--pages/appointment/appointment.wxml-->
+<view class="container">
+  <view class="info">
+    <image class="portrait" src="../../images/img/4.jpg"></image>
+    <view class="name_doctor">
+      <view class="name">陶笙</view>
+      <view class="doctor">主任医师</view>
+    </view>
+    <view class="gray">
+      <view class="left">评分：9.0</view>
+      <view class="right">评分：999</view>
+    </view>
+    <view class="gray1">擅长：骨折、骨不连等修复...</view>
+    <view class="address">
+      <image class="icon" src="../../images/img/5.jpg"></image>
+      <view>
+        骨科_中国人民解放军总医院301医院             </view>
+    </view>  
+  </view>
+  <view class="shuoMing">
+    <view class="top">解读时间：24小时内</view>
+    <view>服务费用：100元</view>
+  </view>
+  <view class="footer">
+    <view class="foot-top">
+      <!-- <view class="section">
+        <view class="section__title left">就诊人</view>
+        <picker bindchange="bindPickerChange2" value="{{index}}" range="{{objArrayM}}" range-key="name">
+          <view class="foot-right">{{objArrayM[index].name}}</view>
+        </picker>
+      </view> -->
+
+      <view class="item" wx:for="{{objArray}}" wx:for-item="itm" wx:for-index="idx">
+        <view class="left">{{itm.title}}</view>
+        <picker bindchange="bindChange_select" value="{{itm.index}}" data-current="{{idx}}" range="{{itm.option}}">
+          <view class='right'>
+            <view class="text-con">{{itm.option[itm.index]}}</view>
+          </view>
+        </picker>
+        <text class="iconfont icon-gengduo"></text>
+      </view>
+
+    </view>
+    <view class="ji">疾病信息</view>
+    <textarea class="text" placeholder='请简单描述您的疾病信息' bindblur="sendmessage" ></textarea>
+    <view class="shangChuan">上传病例</view>
+    <view class="image">
+      <image class="img" src="../../images/img/x2.jpg"></image>
+      <image class="img" src="../../images/img/x2.jpg"></image>
+      <image class="img" src="../../images/img/x2.jpg"></image>
+      <image class="img" src="../../images/img/x2.jpg"></image>
+      <image class="img" src="../../images/img/x2.jpg"></image>
+    </view>
+    <button class="btn" bindtap='handleSubmit'>提交</button>
+  </view>
+</view>

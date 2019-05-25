@@ -1,0 +1,14 @@
+<view class="container"> 
+
+  <view class="item" wx:for="{{records}}" wx:for-item="record">
+    <image class="img" src="{{record.doctoruser.avatar}}"></image>
+      <view class="con">
+        <view class="left">{{record.doctoruser.name}}</view>
+        <view class="right blue">{{record.doctoruser.doctype}}</view>
+        <view class="yuyue">{{record.zhifu}}</view>
+      </view>
+      <view class="gray">{{record.jiuzhentype}}</view>
+      <view class="gray">{{record.jiuzhentime}}</view>
+  </view>
+  
+</view>

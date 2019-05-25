@@ -1,0 +1,63 @@
+<view class="container">
+  <view class="header-title">
+    <view class="title"><view class="l">|</view> 健康指数</view>
+  </view>
+  <view class="con">
+    <view class="con1 m-left">
+      <view class="yuan"></view>
+      <view class="text">血压(mmgh)</view>
+      <view class="center">0/0</view>
+    </view>
+    <view class="con1">
+      <view class="yuan"></view>
+      <view class="text">心率(bpm)</view>
+      <view class="center">102</view>
+      <view class="bot">01/16</view>
+    </view>
+    <view class="con2">
+      <view class="yuan"></view>
+      <view class="text">睡眠(h)</view>
+      <view class="center">0.0</view>
+    </view>
+    <view class="con1 m-left">
+      <view class="yuan"></view>
+      <view class="text">步数(steps)</view>
+      <view class="center">7</view>
+    </view>
+    <view class="con1">
+      <view class="yuan"></view>
+      <view class="text">血温(mmol/L)</view>
+      <view class="center">0</view>
+    </view>
+    <view class="con2">
+      <view class="yuan"></view>
+      <view class="text">尿酸(umm/L)</view>
+      <view class="center">0</view>
+    </view>
+    <view class="con1 con3 m-left">
+      <view class="yuan"></view>
+      <view class="text">血脂(mmol/L)</view>
+      <view class="center">0</view>
+    </view>
+    <view class="con1 con3">
+      <view class="yuan"></view>
+      <view class="text">体温(℃)</view>
+      <view class="center">0</view>
+    </view>
+    <view class="con2">
+      <view class="text text2">历史数据></view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class='footer-title'>
+      <view class="title2"><view class="l">|</view>咨询医生</view>
+    </view>
+    <view class="bottom">
+    <view class="bigyuan"></view>
+    <view class="heititle">快速提问</view>
+    <view class="gray">每天有330000被专业医生解答</view>
+    <image class="right-go" src="../../images/img/20.png"></image>
+    </view>
+  </view>
+
+</view>

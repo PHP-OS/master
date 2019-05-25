@@ -1,0 +1,31 @@
+<!--pages/appointment/appointment.wxml-->
+<view class="container">
+  <view class="info">
+    <image class="portrait" src="../../images/img/4.jpg"></image>
+    <view class="name_doctor">
+      <view class="name">陶笙</view>
+      <view class="doctor">主任医师</view>
+    </view>
+    <view class="gray">
+      <view class="left">评分：9.0</view>
+      <view class="right">评分：999</view>
+    </view>
+    <view class="gray1">擅长：骨折、骨不连等修复...</view>
+    <view class="address">
+      <image class="icon" src="../../images/img/5.jpg"></image>
+      <view>
+        骨科_中国人民解放军总医院301医院             </view>
+    </view>  
+  </view>
+  <view class="details">
+    <view class="details_title">本月</view>
+    <view class="left2">
+      <view class="left_time">2019-03-21 周四 上午</view>
+      <view class="day">6天后</view>
+      <navigator hover-class="none" url='../appointment/appointment-info' ><button class="btn">预约</button></navigator> 
+    </view>
+    <view class="left1">专家门诊-[小禾健康]</view>
+    <view class="red">100.00</view>
+    <view class="yuan">元</view>
+  </view>
+</view>

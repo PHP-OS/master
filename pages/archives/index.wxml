@@ -1,0 +1,33 @@
+<view class="container">
+
+  <view class="head">
+    <image class="left-img" src="../../images/img/4.jpg"></image>
+    <view class="left">
+      <view class="hei">陶笙</view>
+      <view class="blue">健康管家</view>
+    </view>
+    <button class="right">咨询医生</button>
+  </view>
+
+  <view class="nav">
+    <navigator url='../archives/info' class="list list1" >
+      <view class="back"></view>
+      <view class="text">基本信息</view>
+    </navigator>
+
+    <navigator url='../archives/history' class="list">
+      <view class="back"></view>
+      <view class="text text1">既往史</view>
+    </navigator>
+
+    <navigator url="../archives/test" class="list">
+      <view class="back"></view>
+      <view class="text">体检报告</view>
+    </navigator>
+
+    <navigator url='../department/doc-interpret' class="list">
+      <view class="back"></view>
+      <view class="text">报告解读</view>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="item" wx:for="{{records}}" wx:for-item="record">
+    <image src="{{record.doctoruser.avatar}}"></image>
+    <view class="top">
+      <view class="black">{{record.doctoruser.name}}</view>
+      <view class="blue">{{record.doctoruser.doctype}}</view>
+    </view>
+    <view class="gray">咨询时间  {{record.createtime}}</view>
+    <button>查看</button>
+  </view>
+
+  <!-->
+  <view class="item">
+    <image src="../../images/img/4.jpg"></image>
+    <view class="top">
+      <view class="black">陶笙</view>
+      <view class="blue">主任医师</view>
+    </view>
+    <view class="gray">咨询时间  2018-09-10</view>
+    <button>查看</button>
+  </view>
+
+  <-->
+</view>
